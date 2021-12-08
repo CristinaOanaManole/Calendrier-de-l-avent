@@ -1,10 +1,10 @@
-** Calendrier-de-l-avent **
+# Calendrier-de-l-avent **
 ![](./img/giphycat.gif)
 
-# Languages utilisées:
-## Javascript
+## Languages utilisées:
+### Javascript
 
-# Author: Oana Manole
+### Author: Oana Manole
 
 
 
