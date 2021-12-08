@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Calendrier de l'avent">
+	<meta name="keywords" content="calendrier de l'avent, web, css, javascript">
+	<meta name="author" content="Oana Manole">
+	<title>Calendrier de l'avent</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<main>
+		<header class="headerText">
+			Calendrier de l'avent 2021
+		</header>
+
+		<div class="bg">
+			<section>
+				<div class="flex-container">
+					<div class="box">
+						<!-- Boutons-->
+						<button type="button" class="clickBtn" id="color1">1</button>
+						<button type="button" class="clickBtn" id="color2">2</button>
+						<button type="button" class="clickBtn" id="color3">3</button>
+						<button type="button" class="clickBtn" id="color4">4</button>
+						<button type="button" class="clickBtn" id="color5">5</button>
+						<button type="button" class="clickBtn" id="color6">6</button>
+						<button type="button" class="clickBtn" id="color7">7</button>
+						<button type="button" class="clickBtn" id="color8">8</button>
+						<button type="button" class="clickBtn" id="color9">9</button>
+						<button type="button" class="clickBtn" id="color10">10</button>
+						<button type="button" class="clickBtn" id="color11">11</button>
+						<button type="button" class="clickBtn" id="color12">12</button>
+						<button type="button" class="clickBtn" id="color13">13</button>
+						<button type="button" class="clickBtn" id="color14">14</button>
+						<button type="button" class="clickBtn" id="color15">15</button>
+						<button type="button" class="clickBtn" id="color16">16</button>
+						<button type="button" class="clickBtn" id="color17">17</button>
+						<button type="button" class="clickBtn" id="color18">18</button>
+						<button type="button" class="clickBtn" id="color19">19</button>
+						<button type="button" class="clickBtn" id="color20">20</button>
+						<button type="button" class="clickBtn" id="color21">21</button>
+						<button type="button" class="clickBtn" id="color22">22</button>
+						<button type="button" class="clickBtn" id="color23">23</button>
+						<button type="button" class="clickBtn" id="color24">24</button>
+
+						<!-- modal 1 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">1er décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Quoi que tu rêves d’entreprendre, commence-le. L’audace a du génie, du pouvoir,
+										de la magie.
+									</q>
+									<p>Johann Wolfgang Von Goethe</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 2 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">2 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Pourquoi un chasseur emmène-t-il son fusil aux toilettes ?
+									</p>
+									<strong>
+										Pour tirer la chasse
+									</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 3 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">3 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text bold">
+										3 décembre 1992.
+									</p>
+									<span>Le premier SMS commercial est envoyé.</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 4 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">4 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Ce que nous laissons derrière nous et ce qui nous attend n’est rien, comparé à
+										ce qui est en nous.
+									</q>
+									<p>Wendell Holmes</p>
+									<p>Think positive !</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 5 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">5 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<img class="body_img" src="./img/yatahonga.jpg" alt="photo drôle"
+										title="photo drôle">
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 6 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">6 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Quel est le fruit préféré des profs d'histoire ?
+									</p>
+									<strong>Les dates</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 7 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">7 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Le bonheur, c’est savoir ce que l’on veut et le vouloir passionnément.
+									</q>
+									<p>Félicien Marceau</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 8 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">8 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<img class="body_img" src="./img/yatahonga8.jpg" alt="photo drôle"
+										title="photo drôle">
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 9 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">9 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Dans un aquarium il y a 10 poissons rouges. 2 se sont noyés, 4 nagent entre les
+										rochers et 3 sont morts. Combien de poissons rouges reste-t-il ?
+									</p>
+									<strong>10, car ils ne sont jamais partis de l'aquarium.</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 10 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">10 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Le seul homme qui ne se trompe jamais est celui qui ne fait jamais rien. N’ayez
+										pas peur des erreurs, pourvu que vous ne fassiez pas deux fois la même.
+									</q>
+									<p>Franklin Delano Roosevelt</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 11 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">11 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<img class="body_img" src="./img/yatahonga11.jpg" alt="photo drôle"
+										title="photo drôle">
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 12 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">12 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										On me jette lorsqu'on a besoin de moi et on me ramasse lorsqu'on en a plus
+										besoin ?
+										Une histoire de pont…
+									</p>
+									<strong>L'ancre d'un bateau.</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 13 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">13 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Comment appelle-t-on un chien qui n'a pas de pattes ?
+									</p>
+									<strong>On ne l’appelle pas, on va le chercher...</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 14 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">Modal Heading 14</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<strong>14 décembre 1991</strong>
+									<p class="body_text">
+										Arrivée de la flamme olympique à Paris.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 15 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">15 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<strong>Gustave Eiffel</strong>
+									<p class="body_text">
+										né Bonickhausen dit Eiffel le 15 décembre 1832 à Dijon est un ingénieur
+										centralien et un industriel français, qui a notamment participé à la
+										construction de la tour Eiffel à Paris, du viaduc de Garabit et de la statue de
+										la Liberté à New York.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 16 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">16 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Un but dans la vie est la seule fortune qu’il vaille la peine de trouver; on ne
+										la trouvera pas en terre étrangère mais dans son propre coeur.
+									</q>
+									<p>Robert Louis Stevenson</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 17 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">17 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<img class="body_img" src="./img/yatahonga17.jpg" alt="photo drôle"
+										title="photo drôle">
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 18 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">18 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Un prêtre met 3 secondes pour sonner quatre heures. Combien mettra-t-il de temps
+										pour sonner midi?
+									</p>
+									<strong>Eh bien il mettra 11 secondes et non 12.
+										En effet, 1 seconde correspond à l'intervalle de temps qui s'écoule entre deux
+										sons de cloche.
+										Voilà ce qu'il se passe lorsque le prêtre sonne 4 heures :
+										ding--1seconde--ding--1seconde--ding--1seconde--ding</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 19 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">19 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										Hier n’existe plus. Demain ne viendra peut-être jamais. Il n’y a que le miracle
+										du moment présent. Savourez-le. C’est un cadeau
+									</q>
+									<p>Marie Stilkind</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 20 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">20 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Pourquoi faut-il enlever ses lunettes avant un alcootest ?
+									</p>
+									<strong>Ça fait 2 verres en moins.</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 21 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">21 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Le 21 décembre est le 355e jour de l'année du calendrier grégorien, le 356e en
+										cas d'année bissextile, et symbolise à ce titre la période de l'envahissement de
+										la "Terre ferme" par les plantes (plus seulement aquatiques), au Silurien, dans
+										le calendrier cosmique de l'astronome Carl Sagan (en proportion, "seulement"
+										plus de 11 mois et demi, après le 1er janvier symbolisant quant à lui le Big
+										Bang), tel un « calendrier astronomique de l'Avent » décomptant à rebours, mais
+										de manière "accélérée" (à l'échelle de l'humanité), depuis les 17 voire 15
+										décembre. Il reste 10 jours avant la fin de l'année.
+									</p>
+									<strong>Source: wikipedia</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 22 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">22 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<q class="body_text">
+										L’un des secrets du succès, c’est la faculté de se mettre à la place de l’autre
+										et de considérer les choses de son point de vue autant que du nôtre.
+									</q>
+									<p>Henri Ford</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 23 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">23 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<p class="body_text">
+										Quel est le bar préféré des Espagnols ?
+									</p>
+									<strong>Le Bar-celone</strong>
+								</div>
+							</div>
+						</div>
+
+						<!-- modal 24 -->
+						<div class="modal hide">
+							<div class="modal_content">
+								<div class="modal_header">
+									<h3 class="body_title">24 décembre</h3>
+									<span class="cross">&times;</span>
+								</div>
+								<div class="modal_body">
+									<img class="body_img" src="./img/pexels-christmas.jpeg" alt="photo christmas"
+										title="photo christmas">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</main>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div>
+			<p>Oana Manole</p>
+			<button id="modal-btn" class="button">Sources</button>
+		</div>
+		<!-- Modal -->
+		<div id="my-modal" class="modalFooter">
+			<div class="modal-content">
+
+				<span class="close">&times;</span>
+
+			</div>
+			<div class="modal-body">
+				<p>Pexels - pour l'image background et l'image pour le 24 décembre.</p>
+				<p>Wikipedia - pour certaines dates</p>
+				<p><a class="link"
+						href="https://www.lecassetete.fr/blogs/blog-casse-tete/top-15-des-enigmes-qui-cassent-la-tete">Casses
+						tête</a>
+				</p>
+				<p><a class="link"
+						href="https://www.neobienetre.fr/pensees-positives-et-citations-inspirantes/">Citations</a>
+				</p>
+			</div>
+		</div>
+
+
+	</footer>
+
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/textfx.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

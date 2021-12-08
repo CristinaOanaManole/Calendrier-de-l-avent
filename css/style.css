@@ -1,0 +1,293 @@
+/* Title - titre */
+.headerText {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  background: #000000;
+  font-family: 'Sofia';
+  font-size: 2rem;
+}
+
+/* Background picture - image de fond */
+.bg {
+  background-image: url('https://images.pexels.com/photos/293029/pexels-photo-293029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 70%;
+}
+
+a {
+  color: #ff0000;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+/* -----------------------------*/
+/* Colors of numbers  - Les couleurs des ciffres */
+#color1 {
+  color: red;
+}
+
+#color2 {
+  color: white;
+}
+
+#color3 {
+  color: #48a8fe;
+}
+
+#color4 {
+  color: #48fd37;
+}
+
+#color5 {
+  color: #d56c02;
+}
+
+#color6 {
+  color: #d56c9b;
+}
+
+#color7 {
+  color: #d5fd37;
+}
+
+#color8 {
+  color: #8a6c9b;
+}
+
+#color9 {
+  color: #f6ed1f;
+}
+
+#color10 {
+  color: #3fced1;
+}
+
+#color11 {
+  color: #3fa54b;
+}
+
+#color12 {
+  color: #ffaccf;
+}
+
+#color13 {
+  color: #3f3ecf;
+}
+
+#color14 {
+  color: #afa54b;
+}
+
+#color15 {
+  color: #5e6c9b;
+}
+
+#color16 {
+  color: #ffac27;
+}
+
+#color17 {
+  color: #f6531f;
+}
+
+#color18 {
+  color: #9a0301;
+}
+
+#color19 {
+  color: #9a8a01;
+}
+
+#color20 {
+  color: #9a8acc;
+}
+
+#color21 {
+  color: #9a8a83;
+}
+
+#color22 {
+  color: #036776;
+}
+
+#color23 {
+  color: #f954cd;
+}
+
+#color24 {
+  color: #ff1704;
+}
+
+/* Container propriety - conteneur */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 1rem;
+  padding-top: 7.5rem;
+  padding-bottom: 6.5rem;
+} 
+
+/* Box inside propriety - box à l'intérieur de conteneur */
+.box {
+  background: #000000;
+  width: 100%;
+  opacity: 88%;
+}
+
+/* Buttons propriety - bouttons */
+.clickBtn {
+  background: transparent;
+  border: 2rem solid transparent;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* Modals propriety - modals */
+.modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.body_title {
+  color: #ffffff;
+}
+
+.modal_content {
+  width: 50%;
+  margin: 10% auto;
+  background: #fff;
+}
+
+.modal_content .modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  background: #043757;
+  opacity: 88%;
+}
+
+.modal_content .modal_header .cross {
+  font-size: 5rem ;
+  font-weight: 600;
+  padding: 0.4rem ;
+  cursor: pointer;
+}
+
+.modal_content .modal_body {
+  font-size: 0.7rem ;
+  font-weight: 500;
+  padding: 0.7rem  0.5rem ;
+  line-height: 1.6;
+}
+.modal_content .modal_body {
+  font-size: 1.2rem ;
+  margin-bottom: 0.5rem ;
+}
+
+/* Footer */
+.footer {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  color: #ffffff;
+  background: #000000;
+  font-family: 'Sofia';
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Modal Footer */
+.modalFooter {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+    
+#modal-btn {
+  color: #ff0000;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+}    
+    .modal-content {
+      margin: 10% auto;
+      width: 60%;
+      animation-name: modalopen;
+    }
+      
+    .modal-body {
+      display: flex;
+      flex-direction: column;
+      margin: 7rem;
+      background: #ffffff;
+      color: #000000;
+      text-align: center;
+      @media (min-width: 10rem) {
+      height:75%;
+      width: 85%;
+      max-height: 25rem;
+      max-width: 20rem;
+      margin: 0 auto;
+      }
+    }
+
+    .close {
+      color: #cccccc;
+      float: right;
+      font-size: 0.3rem;
+      color: #ffffff;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    @keyframes modalopen {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
