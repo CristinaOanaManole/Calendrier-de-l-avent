@@ -1,5 +1,6 @@
-# Calendrier-de-l-avent **
-![](./img/giphycat.gif)
+# Calendrier-de-l-avent
+
+![](./img/gif_christmas.gif)
 
 ## Languages utilisées:
 ### Javascript
