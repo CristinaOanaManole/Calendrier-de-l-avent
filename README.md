@@ -3,7 +3,7 @@
 
 ![](./img/gif_christmas.gif)
 
-## Language utilisée:
+## Langage utilisée:
 
 <table>
     <tr>
