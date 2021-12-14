@@ -2,6 +2,7 @@
 ### 24 jours avec des blagues, citations et images amusantes
 
 ![](./img/gif_christmas.gif)
+![](picture.png)
 
 ## Langage utilisée:
 
